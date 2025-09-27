@@ -3,6 +3,7 @@ const path = require('path');
 
 const ROOT_DIR = path.join(__dirname, '../images/projects');
 const OUTPUT_MANIFEST = path.join(ROOT_DIR, 'manifest.json');
+const BASE_URL = 'https://sidearchitecture.github.io/sideAImages/images/projects';
 
 function extractSortAndSlug(folderName) {
     const match = folderName.match(/^(\d+)-(.+)$/);
@@ -19,8 +20,15 @@ function getImageFiles(projectPath) {
 function generateProjectManifest(categorySlug, categorySortIndex, projectFolder, projectPath) {
     const { sortIndex: projectSortIndex, slug } = extractSortAndSlug(projectFolder);
     const imageFiles = getImageFiles(projectPath);
-    const coverImage = imageFiles.find(f => f.toLowerCase() === 'cover.jpg') || imageFiles[0];
-    const imageUrls = imageFiles.filter(f => f !== coverImage);
+    const coverImageFile = imageFiles.find(f => f.toLowerCase() === 'cover.jpg') || imageFiles[0];
+
+    if (!coverImageFile) {
+        console.warn(`⚠️ No cover image found in ${projectFolder}`);
+        return null;
+    }
+
+    const imageUrls = imageFiles.filter(f => f !== coverImageFile);
+    const baseUrl = `${BASE_URL}/${categorySlug}/${projectFolder}`;
 
     const projectJsonPath = path.join(projectPath, 'project.json');
     if (!fs.existsSync(projectJsonPath)) {
@@ -33,17 +41,18 @@ function generateProjectManifest(categorySlug, categorySortIndex, projectFolder,
     const manifest = {
         id: slug,
         slug,
-        imageUrl: coverImage,
-        imageUrls,
+        imageUrl: `${baseUrl}/${coverImageFile}`,
+        imageUrls: imageUrls.map(f => `${baseUrl}/${f}`),
         ...manualData
     };
 
     fs.writeFileSync(path.join(projectPath, 'manifest.json'), JSON.stringify(manifest, null, 2));
+
     return {
         id: slug,
         slug,
         title: manualData.title || slug,
-        coverImage: `${categorySlug}/${projectFolder}/${coverImage}`,
+        coverImage: `${baseUrl}/${coverImageFile}`,
         imageCount: imageUrls.length,
         category: manualData.category || [],
         categorySortIndex,
