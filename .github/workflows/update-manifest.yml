@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-manifest:
-    if: github.actor != 'github-actions' # ✅ Skip bot-triggered commits
+    if: github.actor != 'github-actions'
     runs-on: ubuntu-latest
 
     steps:
@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Run manifest generation script
         run: node scripts/generateManifests.js
 
@@ -30,11 +27,9 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          # Stage manifest files
           git add images/projects/manifest.json
           git add images/projects/**/manifest.json
 
-          # Only commit if there are changes
           if ! git diff --cached --quiet; then
             git commit -m "🔄 Auto-update manifest after push to ng"
             git push
