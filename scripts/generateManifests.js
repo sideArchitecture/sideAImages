@@ -17,7 +17,7 @@ function getImageFiles(projectPath) {
     return files.filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
 }
 
-function generateProjectManifest(categorySlug, categorySortIndex, projectFolder, projectPath) {
+function generateProjectManifest(categoryFolder, categorySortIndex, projectFolder, projectPath) {
     const { sortIndex: projectSortIndex, slug } = extractSortAndSlug(projectFolder);
     const imageFiles = getImageFiles(projectPath);
     const coverImageFile = imageFiles.find(f => f.toLowerCase() === 'cover.jpg') || imageFiles[0];
@@ -28,7 +28,7 @@ function generateProjectManifest(categorySlug, categorySortIndex, projectFolder,
     }
 
     const imageUrls = imageFiles.filter(f => f !== coverImageFile);
-    const baseUrl = `${BASE_URL}/${categorySlug}/${projectFolder}`;
+    const baseUrl = `${BASE_URL}/${categoryFolder}/${projectFolder}`;
 
     const projectJsonPath = path.join(projectPath, 'project.json');
     if (!fs.existsSync(projectJsonPath)) {
@@ -65,13 +65,13 @@ function generateAllManifests() {
     const allProjects = [];
 
     for (const categoryFolder of categories) {
-        const { sortIndex: categorySortIndex, slug: categorySlug } = extractSortAndSlug(categoryFolder);
+        const { sortIndex: categorySortIndex } = extractSortAndSlug(categoryFolder);
         const categoryPath = path.join(ROOT_DIR, categoryFolder);
         const projects = fs.readdirSync(categoryPath).filter(f => fs.statSync(path.join(categoryPath, f)).isDirectory());
 
         for (const projectFolder of projects) {
             const projectPath = path.join(categoryPath, projectFolder);
-            const manifest = generateProjectManifest(categorySlug, categorySortIndex, projectFolder, projectPath);
+            const manifest = generateProjectManifest(categoryFolder, categorySortIndex, projectFolder, projectPath);
             if (manifest) allProjects.push(manifest);
         }
     }

@@ -1,11 +1,11 @@
 {
   "id": "sidea-tower",
   "slug": "sidea-tower",
-  "imageUrl": "cover.jpg",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/cover.jpg",
   "imageUrls": [
-    "image1.jpg",
-    "image2.jpg",
-    "image3.jpeg"
+    "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/image3.jpeg"
   ],
   "title": "SideA Tower",
   "description": "A modern tower with sustainable design and striking vertical geometry.",

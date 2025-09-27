@@ -3,21 +3,11 @@
     "id": "sidea-tower",
     "slug": "sidea-tower",
     "title": "SideA Tower",
-    "coverImage": "featured/01-sidea-tower/cover.jpg",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/cover.jpg",
     "imageCount": 3,
     "category": [
       "featured",
       "commercial"
-    ]
-  },
-  {
-    "id": "forest-retreat",
-    "slug": "forest-retreat",
-    "title": "Forest Retreat",
-    "coverImage": "residential/01-forest-retreat/undefined",
-    "imageCount": 0,
-    "category": [
-      "residential"
     ]
   }
 ]
