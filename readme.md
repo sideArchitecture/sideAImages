@@ -13,3 +13,5 @@ imageUrl from cover.jpg
 imageUrls from all image files
 
 
+to run script:
+node scripts/generateManifests.js
