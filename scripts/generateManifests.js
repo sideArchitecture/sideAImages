@@ -1,0 +1,90 @@
+const fs = require('fs');
+const path = require('path');
+
+const ROOT_DIR = path.join(__dirname, '../images/projects');
+const OUTPUT_MANIFEST = path.join(ROOT_DIR, 'manifest.json');
+
+function extractSortAndSlug(folderName) {
+    const match = folderName.match(/^(\d+)-(.+)$/);
+    return match
+        ? { sortIndex: parseInt(match[1]), slug: match[2] }
+        : { sortIndex: Infinity, slug: folderName };
+}
+
+function getImageFiles(projectPath) {
+    const files = fs.readdirSync(projectPath);
+    return files.filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
+}
+
+function generateProjectManifest(categorySlug, categorySortIndex, projectFolder, projectPath) {
+    const { sortIndex: projectSortIndex, slug } = extractSortAndSlug(projectFolder);
+    const imageFiles = getImageFiles(projectPath);
+    const coverImage = imageFiles.find(f => f.toLowerCase() === 'cover.jpg') || imageFiles[0];
+    const imageUrls = imageFiles.filter(f => f !== coverImage);
+
+    const projectJsonPath = path.join(projectPath, 'project.json');
+    if (!fs.existsSync(projectJsonPath)) {
+        console.warn(`⚠️ Missing project.json in ${projectFolder}`);
+        return null;
+    }
+
+    const manualData = JSON.parse(fs.readFileSync(projectJsonPath, 'utf-8'));
+
+    const manifest = {
+        id: slug,
+        slug,
+        imageUrl: coverImage,
+        imageUrls,
+        ...manualData
+    };
+
+    fs.writeFileSync(path.join(projectPath, 'manifest.json'), JSON.stringify(manifest, null, 2));
+    return {
+        id: slug,
+        slug,
+        title: manualData.title || slug,
+        coverImage: `${categorySlug}/${projectFolder}/${coverImage}`,
+        imageCount: imageUrls.length,
+        category: manualData.category || [],
+        categorySortIndex,
+        projectSortIndex
+    };
+}
+
+function generateAllManifests() {
+    const categories = fs.readdirSync(ROOT_DIR).filter(f => fs.statSync(path.join(ROOT_DIR, f)).isDirectory());
+    const allProjects = [];
+
+    for (const categoryFolder of categories) {
+        const { sortIndex: categorySortIndex, slug: categorySlug } = extractSortAndSlug(categoryFolder);
+        const categoryPath = path.join(ROOT_DIR, categoryFolder);
+        const projects = fs.readdirSync(categoryPath).filter(f => fs.statSync(path.join(categoryPath, f)).isDirectory());
+
+        for (const projectFolder of projects) {
+            const projectPath = path.join(categoryPath, projectFolder);
+            const manifest = generateProjectManifest(categorySlug, categorySortIndex, projectFolder, projectPath);
+            if (manifest) allProjects.push(manifest);
+        }
+    }
+
+    // Sort by category then project
+    allProjects.sort((a, b) => {
+        if (a.categorySortIndex !== b.categorySortIndex) return a.categorySortIndex - b.categorySortIndex;
+        if (a.projectSortIndex !== b.projectSortIndex) return a.projectSortIndex - b.projectSortIndex;
+        return a.title.localeCompare(b.title);
+    });
+
+    const output = allProjects.map(p => ({
+        id: p.id,
+        slug: p.slug,
+        title: p.title,
+        coverImage: p.coverImage,
+        imageCount: p.imageCount,
+        category: p.category
+    }));
+
+    fs.writeFileSync(OUTPUT_MANIFEST, JSON.stringify(output, null, 2));
+    console.log(`✅ Generated ${output.length} project entries in manifest.json`);
+}
+
+generateAllManifests();
