@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - ng
-
+permissions:
+  contents: write
 jobs:
   generate-manifest:
     if: github.actor != 'github-actions'
