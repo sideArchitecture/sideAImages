@@ -19,7 +19,8 @@
     "imageCount": 4,
     "category": [
       "commercial",
-      "residential"
+      "residential",
+      "featured"
     ],
     "projectPath": "02-commercial/01-chandan"
   }
