@@ -56,7 +56,8 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
         imageCount: imageUrls.length,
         category: manualData.category || [],
         categorySortIndex,
-        projectSortIndex
+        projectSortIndex,
+        projectPath: `${categoryFolder}/${projectFolder}` // ✅ Canonical folder path
     };
 }
 
@@ -89,7 +90,8 @@ function generateAllManifests() {
         title: p.title,
         coverImage: p.coverImage,
         imageCount: p.imageCount,
-        category: p.category
+        category: p.category,
+        projectPath: p.projectPath // ✅ Included in root manifest
     }));
 
     fs.writeFileSync(OUTPUT_MANIFEST, JSON.stringify(output, null, 2));
