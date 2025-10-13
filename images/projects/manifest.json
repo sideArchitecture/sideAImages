@@ -11,6 +11,18 @@
     "projectPath": "03-residential/01-datta-grandeur"
   },
   {
+    "id": "municipal-model-school-vijaywada",
+    "slug": "municipal-model-school-vijaywada",
+    "title": "Municipal  Model High School",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/01-municipal-model-school-vijaywada/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "institutional",
+      "featured"
+    ],
+    "projectPath": "04-institutional/01-municipal-model-school-vijaywada"
+  },
+  {
     "id": "adali-cultural-center",
     "slug": "adali-cultural-center",
     "title": "Adali Cultural Center",
