@@ -1,0 +1,18 @@
+{
+  "id": "adali-cultural-center",
+  "slug": "adali-cultural-center",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/cover.jpg",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/image3.jpg"
+  ],
+  "title": "Adali Cultural Center",
+  "description": "Adali Cultural Center showcases contemporary hillside architecture with stone bases, glass façades, and cantilevered timber volumes.",
+  "category": [
+    "commercial",
+    "residential",
+    "featured"
+  ],
+  "notes": "Adali Cultural Center combines modern design with the contours of the landscape. Stone plinths root the buildings into the hillside, while glass and timber façades open out to the views. Cantilevered terraces and sloped roofs give it a warm, contemporary character that feels both anchored and elevated"
+}

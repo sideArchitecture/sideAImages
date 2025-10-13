@@ -12,6 +12,19 @@
     "projectPath": "01-featured/01-sidea-tower"
   },
   {
+    "id": "adali-cultural-center",
+    "slug": "adali-cultural-center",
+    "title": "Adali Cultural Center",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/cover.jpg",
+    "imageCount": 3,
+    "category": [
+      "commercial",
+      "residential",
+      "featured"
+    ],
+    "projectPath": "02-commercial/01-adali-cultural-center"
+  },
+  {
     "id": "chandan",
     "slug": "chandan",
     "title": "Chandan 33",
