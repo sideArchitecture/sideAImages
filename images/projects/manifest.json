@@ -1,38 +1,25 @@
 [
   {
-    "id": "sidea-tower",
-    "slug": "sidea-tower",
-    "title": "SideA Tower",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-sidea-tower/cover.jpg",
-    "imageCount": 3,
-    "category": [
-      "featured",
-      "commercial"
-    ],
-    "projectPath": "01-featured/01-sidea-tower"
-  },
-  {
-    "id": "adali-cultural-center",
-    "slug": "adali-cultural-center",
-    "title": "Adali Cultural Center",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-adali-cultural-center/cover.jpg",
-    "imageCount": 3,
-    "category": [
-      "hospitality",
-      "featured"
-    ],
-    "projectPath": "02-commercial/01-adali-cultural-center"
-  },
-  {
     "id": "datta-grandeur",
     "slug": "datta-grandeur",
     "title": "Datta Grandeur",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/cover.jpg",
     "imageCount": 4,
     "category": [
-      "residential",
-      "featured"
+      "residential"
     ],
     "projectPath": "03-residential/01-datta-grandeur"
+  },
+  {
+    "id": "adali-cultural-center",
+    "slug": "adali-cultural-center",
+    "title": "Adali Cultural Center",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/06-hospitality/01-adali-cultural-center/cover.jpg",
+    "imageCount": 3,
+    "category": [
+      "hospitality",
+      "featured"
+    ],
+    "projectPath": "06-hospitality/01-adali-cultural-center"
   }
 ]
