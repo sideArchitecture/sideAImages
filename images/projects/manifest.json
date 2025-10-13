@@ -25,19 +25,6 @@
     "projectPath": "02-commercial/01-adali-cultural-center"
   },
   {
-    "id": "chandan",
-    "slug": "chandan",
-    "title": "Chandan 33",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-commercial/01-chandan/cover.jpg",
-    "imageCount": 4,
-    "category": [
-      "commercial",
-      "residential",
-      "featured"
-    ],
-    "projectPath": "02-commercial/01-chandan"
-  },
-  {
     "id": "datta-grandeur",
     "slug": "datta-grandeur",
     "title": "Datta Grandeur",
