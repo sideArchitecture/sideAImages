@@ -1,0 +1,18 @@
+{
+  "id": "datta-grandeur",
+  "slug": "datta-grandeur",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/cover.jpg",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/image3.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/image4.jpg"
+  ],
+  "title": "Datta Grandeur",
+  "description": "Luxury Multi Storey 3 Bed room residential units",
+  "category": [
+    "residential",
+    "featured"
+  ],
+  "notes": "Luxury Multi Storey 3 Bed room residential units located at Vishakhapatnam"
+}
