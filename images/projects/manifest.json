@@ -1,14 +1,26 @@
 [
   {
+    "id": "adali-cultural-center",
+    "slug": "adali-cultural-center",
+    "title": "Adali Cultural Center",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-adali-cultural-center/cover.jpg",
+    "imageCount": 3,
+    "category": [
+      "featured",
+      "hospitality"
+    ],
+    "projectPath": "01-featured/01-adali-cultural-center"
+  },
+  {
     "id": "datta-grandeur",
     "slug": "datta-grandeur",
     "title": "Datta Grandeur",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-residential/01-datta-grandeur/cover.jpg",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/01-datta-grandeur/cover.jpg",
     "imageCount": 4,
     "category": [
       "residential"
     ],
-    "projectPath": "03-residential/01-datta-grandeur"
+    "projectPath": "02-residential/01-datta-grandeur"
   },
   {
     "id": "municipal-model-school-vijaywada",
@@ -17,21 +29,9 @@
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/01-municipal-model-school-vijaywada/cover.jpg",
     "imageCount": 4,
     "category": [
-      "institutional",
-      "featured"
+      "featured",
+      "institutional"
     ],
     "projectPath": "04-institutional/01-municipal-model-school-vijaywada"
-  },
-  {
-    "id": "adali-cultural-center",
-    "slug": "adali-cultural-center",
-    "title": "Adali Cultural Center",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/06-hospitality/01-adali-cultural-center/cover.jpg",
-    "imageCount": 3,
-    "category": [
-      "hospitality",
-      "featured"
-    ],
-    "projectPath": "06-hospitality/01-adali-cultural-center"
   }
 ]
