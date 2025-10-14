@@ -50,6 +50,22 @@
     "location": "visakhapatnam"
   },
   {
+    "id": "RESIDENCE-003-SUNRISE-VISTARA",
+    "slug": "RESIDENCE-003-SUNRISE-VISTARA",
+    "title": "Sunrise Vistara",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-003-SUNRISE-VISTARA/cover.jpg",
+    "imageCount": 5,
+    "category": [
+      "Residential"
+    ],
+    "projectPath": "02-residential/RESIDENCE-003-SUNRISE-VISTARA",
+    "year": "2023",
+    "client": "",
+    "designStyle": "contemporary",
+    "builtStatus": "built",
+    "location": "visakhapatnam"
+  },
+  {
     "id": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "slug": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "title": "Ingegrated government complex",
