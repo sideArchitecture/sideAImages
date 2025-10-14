@@ -33,6 +33,23 @@
     "location": ""
   },
   {
+    "id": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
+    "slug": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
+    "title": "Ingegrated government complex",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY/cover.jpg",
+    "imageCount": 3,
+    "category": [
+      "featured",
+      "office"
+    ],
+    "projectPath": "03-office/OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
+    "year": "2018",
+    "client": "",
+    "designStyle": "contemporary",
+    "builtStatus": "Unbuilt",
+    "location": "Rajahmundry"
+  },
+  {
     "id": "municipal-model-school-vijaywada",
     "slug": "municipal-model-school-vijaywada",
     "title": "Municipal  Model High School",
