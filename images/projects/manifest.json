@@ -17,20 +17,20 @@
     "location": "Palakonda"
   },
   {
-    "id": "datta-grandeur",
-    "slug": "datta-grandeur",
-    "title": "Datta Grandeur",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/01-datta-grandeur/cover.jpg",
-    "imageCount": 4,
+    "id": "RESIDENCE-004-DATTA-SUNRISE",
+    "slug": "RESIDENCE-004-DATTA-SUNRISE",
+    "title": "Datta Skyrise",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-004-DATTA-SUNRISE/cover.jpg",
+    "imageCount": 3,
     "category": [
-      "residential"
+      "Residential"
     ],
-    "projectPath": "02-residential/01-datta-grandeur",
-    "year": "",
+    "projectPath": "02-residential/RESIDENCE-004-DATTA-SUNRISE",
+    "year": "2025",
     "client": "",
-    "designStyle": "",
-    "builtStatus": "",
-    "location": ""
+    "designStyle": "contemporary",
+    "builtStatus": "Unbuilt",
+    "location": "visakhapatnam"
   },
   {
     "id": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
