@@ -1,0 +1,24 @@
+{
+  "id": "COMMERCIAL-001-GCC",
+  "slug": "COMMERCIAL-001-GCC",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/cover.jpg",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/image3.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/image4.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/image5.jpg"
+  ],
+  "title": "Girijana Commercial complex",
+  "description": "Girijana Commercial complex - A sleek contemporary commercial streetscape defined by floating roof forms, glass façades, and clean minimalist geometry.",
+  "category": [
+    "featured",
+    "institutional"
+  ],
+  "notes": "Girijana Commercial Complex is designed in a contemporary minimalist architectural style that emphasizes clean geometry, open façades, and elegant material expression. The linear blocks feature cantilevered roof profiles, full-height glazing, and slender structural frames, creating a sophisticated commercial edge with strong visual identity. Spaces like the Araku Coffee House anchor the design with bold framing and transparency, while landscaped walkways and rhythmic colonnades tie the entire complex together.",
+  "year": "2019",
+  "client": "Govt. of Andhra Pradesh",
+  "designStyle": "contemporary",
+  "builtStatus": "built",
+  "location": "palakonda"
+}

@@ -48,5 +48,22 @@
     "designStyle": "",
     "builtStatus": "",
     "location": ""
+  },
+  {
+    "id": "COMMERCIAL-001-GCC",
+    "slug": "COMMERCIAL-001-GCC",
+    "title": "Girijana Commercial complex",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/cover.jpg",
+    "imageCount": 5,
+    "category": [
+      "featured",
+      "institutional"
+    ],
+    "projectPath": "09-commercial/COMMERCIAL-001-GCC",
+    "year": "2019",
+    "client": "Govt. of Andhra Pradesh",
+    "designStyle": "contemporary",
+    "builtStatus": "built",
+    "location": "palakonda"
   }
 ]
