@@ -1,15 +1,15 @@
 [
   {
-    "id": "adali-cultural-center",
-    "slug": "adali-cultural-center",
+    "id": "HOSPITALITY-001-ADALI-RESORT",
+    "slug": "HOSPITALITY-001-ADALI-RESORT",
     "title": "Adali Cultural Center",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-adali-cultural-center/cover.jpg",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/HOSPITALITY-001-ADALI-RESORT/cover.jpg",
     "imageCount": 4,
     "category": [
       "featured",
       "institutional"
     ],
-    "projectPath": "01-featured/01-adali-cultural-center",
+    "projectPath": "01-featured/HOSPITALITY-001-ADALI-RESORT",
     "year": "2018",
     "client": "Govt. of Andhra Pradesh",
     "designStyle": "Contemporary chalet",
