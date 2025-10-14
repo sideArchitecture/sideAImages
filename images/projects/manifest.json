@@ -9,7 +9,12 @@
       "featured",
       "hospitality"
     ],
-    "projectPath": "01-featured/01-adali-cultural-center"
+    "projectPath": "01-featured/01-adali-cultural-center",
+    "year": "",
+    "client": "",
+    "designStyle": "",
+    "builtStatus": "",
+    "location": ""
   },
   {
     "id": "datta-grandeur",
@@ -20,7 +25,12 @@
     "category": [
       "residential"
     ],
-    "projectPath": "02-residential/01-datta-grandeur"
+    "projectPath": "02-residential/01-datta-grandeur",
+    "year": "",
+    "client": "",
+    "designStyle": "",
+    "builtStatus": "",
+    "location": ""
   },
   {
     "id": "municipal-model-school-vijaywada",
@@ -32,6 +42,11 @@
       "featured",
       "institutional"
     ],
-    "projectPath": "04-institutional/01-municipal-model-school-vijaywada"
+    "projectPath": "04-institutional/01-municipal-model-school-vijaywada",
+    "year": "2019",
+    "client": "Ayaan",
+    "designStyle": "Rustic",
+    "builtStatus": "built",
+    "location": "Vijayawada, AP"
   }
 ]
