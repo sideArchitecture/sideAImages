@@ -15,3 +15,5 @@ imageUrls from all image files
 
 to run script:
 node scripts/generateManifests.js
+
+npx http-server ./images -p 8081 --cors
