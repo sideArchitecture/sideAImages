@@ -57,7 +57,12 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
         category: manualData.category || [],
         categorySortIndex,
         projectSortIndex,
-        projectPath: `${categoryFolder}/${projectFolder}` // ✅ Canonical folder path
+        projectPath: `${categoryFolder}/${projectFolder}`,
+        year: manualData.year || '',
+        client: manualData.client || '',
+        designStyle: manualData.designStyle || '',
+        builtStatus: manualData.builtStatus || '',
+        location: manualData.location || ''
     };
 }
 
@@ -91,7 +96,12 @@ function generateAllManifests() {
         coverImage: p.coverImage,
         imageCount: p.imageCount,
         category: p.category,
-        projectPath: p.projectPath // ✅ Included in root manifest
+        projectPath: p.projectPath,
+        year: p.year,
+        client: p.client,
+        designStyle: p.designStyle,
+        builtStatus: p.builtStatus,
+        location: p.location
     }));
 
     fs.writeFileSync(OUTPUT_MANIFEST, JSON.stringify(output, null, 2));
