@@ -4,17 +4,17 @@
     "slug": "adali-cultural-center",
     "title": "Adali Cultural Center",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/01-adali-cultural-center/cover.jpg",
-    "imageCount": 3,
+    "imageCount": 4,
     "category": [
       "featured",
-      "hospitality"
+      "institutional"
     ],
     "projectPath": "01-featured/01-adali-cultural-center",
-    "year": "",
-    "client": "",
-    "designStyle": "",
-    "builtStatus": "",
-    "location": ""
+    "year": "2018",
+    "client": "Govt. of Andhra Pradesh",
+    "designStyle": "Contemporary chalet",
+    "builtStatus": "Unbuilt",
+    "location": "Palakonda"
   },
   {
     "id": "datta-grandeur",
