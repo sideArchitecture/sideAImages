@@ -1,0 +1,22 @@
+{
+  "id": "OFFICE-002-TUDA-CONFERENCE",
+  "slug": "OFFICE-002-TUDA-CONFERENCE",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/cover.jpg",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/image3.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/image4.jpg"
+  ],
+  "title": "Tuda Conference",
+  "description": "TUDA Conference Room — a modern collaborative space shaped by parametric patterns and precise geometric design.",
+  "category": [
+    "Interiors"
+  ],
+  "notes": "The TUDA Conference Room showcases a refined synthesis of architecture and technology through the use of parametric ceiling patterns and sleek linear elements. The design integrates form and function — angular conference tables, dynamic ceiling geometry, and striped blinds collectively define a space that is both structured and fluid. The monochromatic palette enhances visual harmony, while controlled lighting and acoustic detailing create an environment suited for focused discussions and presentations.",
+  "year": "2018",
+  "client": "",
+  "designStyle": "Modern",
+  "builtStatus": "built",
+  "location": "Tirupathi"
+}

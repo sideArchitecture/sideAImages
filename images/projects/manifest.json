@@ -83,6 +83,22 @@
     "location": "Rajahmundry"
   },
   {
+    "id": "OFFICE-002-TUDA-CONFERENCE",
+    "slug": "OFFICE-002-TUDA-CONFERENCE",
+    "title": "Tuda Conference",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "Interiors"
+    ],
+    "projectPath": "03-office/OFFICE-002-TUDA-CONFERENCE",
+    "year": "2018",
+    "client": "",
+    "designStyle": "Modern",
+    "builtStatus": "built",
+    "location": "Tirupathi"
+  },
+  {
     "id": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "slug": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "title": "Municipal  Model High School",
