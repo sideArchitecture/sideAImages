@@ -1,0 +1,23 @@
+{
+  "id": "MORE-001-MEMORIAL-DESIGN",
+  "slug": "MORE-001-MEMORIAL-DESIGN",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/cover.jpg",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/image1.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/image2.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/image3.jpg",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/image4.jpg"
+  ],
+  "title": "Memorial Ghat",
+  "description": "Memorial Ghat - Memorial Ghat blends neo-classical monumentality with contemporary spatial geometry to create a dignified space of remembrance.",
+  "category": [
+    "featured",
+    "More"
+  ],
+  "notes": "Memorial Ghat is envisioned as a solemn commemorative space inspired by neo-classical architectural principles. The structure features robust fluted columns, a heavy entablature, and symmetrical massing that evoke timeless permanence. Set within a circular landscape layout, the memorial creates a ceremonial procession that guides visitors inward toward the central plinth. The curved retaining walls, stone paving, and stepped forecourt blend classical formality with contemporary terrain design, offering a balanced environment for reflection, tribute, and cultural remembrance.",
+  "year": "2022",
+  "client": "",
+  "designStyle": "Neo classical",
+  "builtStatus": "Unbuilt",
+  "location": "kadapa"
+}

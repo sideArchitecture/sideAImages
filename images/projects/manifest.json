@@ -115,5 +115,22 @@
     "designStyle": "contemporary",
     "builtStatus": "built",
     "location": "palakonda"
+  },
+  {
+    "id": "MORE-001-MEMORIAL-DESIGN",
+    "slug": "MORE-001-MEMORIAL-DESIGN",
+    "title": "Memorial Ghat",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "featured",
+      "More"
+    ],
+    "projectPath": "10-more/MORE-001-MEMORIAL-DESIGN",
+    "year": "2022",
+    "client": "",
+    "designStyle": "Neo classical",
+    "builtStatus": "Unbuilt",
+    "location": "kadapa"
   }
 ]
