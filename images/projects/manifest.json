@@ -66,6 +66,22 @@
     "location": "visakhapatnam"
   },
   {
+    "id": "OFFICE-003-COMMAND-CONTROL-CENTER",
+    "slug": "OFFICE-003-COMMAND-CONTROL-CENTER",
+    "title": "Command control center",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-003-COMMAND-CONTROL-CENTER/cover.jpg",
+    "imageCount": 8,
+    "category": [
+      "Interiors"
+    ],
+    "projectPath": "03-office/OFFICE-003-COMMAND-CONTROL-CENTER",
+    "year": "2023",
+    "client": "",
+    "designStyle": "Modern",
+    "builtStatus": "built",
+    "location": "Kadapa"
+  },
+  {
     "id": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "slug": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "title": "Ingegrated government complex",
