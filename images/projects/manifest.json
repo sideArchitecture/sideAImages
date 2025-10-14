@@ -50,21 +50,21 @@
     "location": "Rajahmundry"
   },
   {
-    "id": "municipal-model-school-vijaywada",
-    "slug": "municipal-model-school-vijaywada",
+    "id": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
+    "slug": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "title": "Municipal  Model High School",
-    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/01-municipal-model-school-vijaywada/cover.jpg",
-    "imageCount": 4,
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA/cover.jpg",
+    "imageCount": 5,
     "category": [
       "featured",
       "institutional"
     ],
-    "projectPath": "04-institutional/01-municipal-model-school-vijaywada",
-    "year": "",
-    "client": "",
-    "designStyle": "",
+    "projectPath": "04-institutional/INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
+    "year": "2019",
+    "client": "Ayaan",
+    "designStyle": "Rustic, Contemporary",
     "builtStatus": "",
-    "location": ""
+    "location": "Vijayawada, AP"
   },
   {
     "id": "COMMERCIAL-001-GCC",
