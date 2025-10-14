@@ -17,6 +17,23 @@
     "location": "Palakonda"
   },
   {
+    "id": "RESIDENCE-001-DATTA-GRANDEUR",
+    "slug": "RESIDENCE-001-DATTA-GRANDEUR",
+    "title": "Datta Grandeur",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-001-DATTA-GRANDEUR/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "featured",
+      "Residential"
+    ],
+    "projectPath": "02-residential/RESIDENCE-001-DATTA-GRANDEUR",
+    "year": "2021",
+    "client": "",
+    "designStyle": "contemporary",
+    "builtStatus": "built",
+    "location": "visakhapatnam"
+  },
+  {
     "id": "RESIDENCE-004-DATTA-SUNRISE",
     "slug": "RESIDENCE-004-DATTA-SUNRISE",
     "title": "Datta Skyrise",
