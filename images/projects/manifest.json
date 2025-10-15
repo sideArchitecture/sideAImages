@@ -148,6 +148,38 @@
     "location": "Vijayawada, AP"
   },
   {
+    "id": "INSTITUTIONAL-002-PANTHAM-SCHOOL",
+    "slug": "INSTITUTIONAL-002-PANTHAM-SCHOOL",
+    "title": "Sri Pantham Satyanarayana Prirmary school",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-002-PANTHAM-SCHOOL/cover.jpg",
+    "imageCount": 5,
+    "category": [
+      "institutional"
+    ],
+    "projectPath": "04-institutional/INSTITUTIONAL-002-PANTHAM-SCHOOL",
+    "year": "2019",
+    "client": "",
+    "designStyle": "Contemporary",
+    "builtStatus": "Built",
+    "location": "Rajahmundry"
+  },
+  {
+    "id": "HOSPITALITY-002-GANDIKOTA DTMC",
+    "slug": "HOSPITALITY-002-GANDIKOTA DTMC",
+    "title": "Gandikota DTMC",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/06-hospitality/HOSPITALITY-002-GANDIKOTA DTMC/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "Hospitality"
+    ],
+    "projectPath": "06-hospitality/HOSPITALITY-002-GANDIKOTA DTMC",
+    "year": "2025",
+    "client": "",
+    "designStyle": "Contemporary",
+    "builtStatus": "Unbuilt",
+    "location": "Gandikota"
+  },
+  {
     "id": "COMMERCIAL-001-GCC",
     "slug": "COMMERCIAL-001-GCC",
     "title": "Girijana Commercial complex",
