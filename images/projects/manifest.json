@@ -155,7 +155,7 @@
     "imageCount": 5,
     "category": [
       "featured",
-      "institutional"
+      "commercial"
     ],
     "projectPath": "09-commercial/COMMERCIAL-001-GCC",
     "year": "2019",
@@ -163,6 +163,22 @@
     "designStyle": "contemporary",
     "builtStatus": "built",
     "location": "palakonda"
+  },
+  {
+    "id": "COMMERCIAL-002-SURUCHI",
+    "slug": "COMMERCIAL-002-SURUCHI",
+    "title": "Suruchi",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-002-SURUCHI/cover.jpg",
+    "imageCount": 6,
+    "category": [
+      "commercial"
+    ],
+    "projectPath": "09-commercial/COMMERCIAL-002-SURUCHI",
+    "year": "2020",
+    "client": "",
+    "designStyle": "Modern",
+    "builtStatus": "Unbuilt",
+    "location": "Rajahmundry"
   },
   {
     "id": "MORE-001-MEMORIAL-DESIGN",
