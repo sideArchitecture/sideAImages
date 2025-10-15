@@ -131,6 +131,22 @@
     "location": "Tirupathi"
   },
   {
+    "id": "INSTITUTIONAL-003-DISTRICT-COURT",
+    "slug": "INSTITUTIONAL-003-DISTRICT-COURT",
+    "title": "District Court Rennovation",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-003-DISTRICT-COURT/cover.jpg",
+    "imageCount": 4,
+    "category": [
+      "institutional"
+    ],
+    "projectPath": "04-institutional/INSTITUTIONAL-003-DISTRICT-COURT",
+    "year": "2019",
+    "client": "",
+    "designStyle": "Claasical",
+    "builtStatus": "Built",
+    "location": "Rajahmundry"
+  },
+  {
     "id": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "slug": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "title": "Municipal  Model High School",
