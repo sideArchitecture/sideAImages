@@ -82,6 +82,22 @@
     "location": "visakhapatnam"
   },
   {
+    "id": "OFFICE-004-APEITA",
+    "slug": "OFFICE-004-APEITA",
+    "title": "APEITA Office Building",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-004-APEITA/cover.jpg",
+    "imageCount": 6,
+    "category": [
+      "commercial"
+    ],
+    "projectPath": "03-office/OFFICE-004-APEITA",
+    "year": "2026",
+    "client": "",
+    "designStyle": "Modern Contemporary",
+    "builtStatus": "Unbuilt",
+    "location": "Tirupati"
+  },
+  {
     "id": "OFFICE-003-COMMAND-CONTROL-CENTER",
     "slug": "OFFICE-003-COMMAND-CONTROL-CENTER",
     "title": "Command control center",
