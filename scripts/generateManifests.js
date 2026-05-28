@@ -30,6 +30,17 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
     const imageUrls = imageFiles.filter(f => f !== coverImageFile);
     const baseUrl = `${BASE_URL}/${categoryFolder}/${projectFolder}`;
 
+    // -----------------------------
+    // brochure.pdf support
+    // -----------------------------
+    const brochureFileName = 'brochure.pdf';
+
+    const brochurePath = path.join(projectPath, brochureFileName);
+
+    const brochureLink = fs.existsSync(brochurePath)
+        ? `${baseUrl}/${brochureFileName}`
+        : '';
+
     const projectJsonPath = path.join(projectPath, 'project.json');
     if (!fs.existsSync(projectJsonPath)) {
         console.warn(`⚠️ Missing project.json in ${projectFolder}`);
@@ -42,7 +53,13 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
         id: slug,
         slug,
         imageUrl: `${baseUrl}/${coverImageFile}`,
-        imageUrls: imageUrls.map(f => `${baseUrl}/${f}`),
+
+        imageUrls: imageUrls.map(
+            f => `${baseUrl}/${f}`
+        ),
+
+        brochureLink,
+
         ...manualData
     };
 
@@ -53,6 +70,9 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
         slug,
         title: manualData.title || slug,
         coverImage: `${baseUrl}/${coverImageFile}`,
+
+        brochureLink,
+
         imageCount: imageUrls.length,
         category: manualData.category || [],
         categorySortIndex,
