@@ -196,6 +196,22 @@
     "location": "Gandikota"
   },
   {
+    "id": "COMMERCIAL-003-STORES APTRANSCO",
+    "slug": "COMMERCIAL-003-STORES APTRANSCO",
+    "title": "APTRANSCO Stores",
+    "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/cover.png",
+    "imageCount": 5,
+    "category": [
+      "Commercial"
+    ],
+    "projectPath": "09-commercial/COMMERCIAL-003-STORES APTRANSCO",
+    "year": "2026",
+    "client": "AP TRANSCO",
+    "designStyle": "Modern Industrial",
+    "builtStatus": "Ongoing",
+    "location": "Vijayawada"
+  },
+  {
     "id": "COMMERCIAL-001-GCC",
     "slug": "COMMERCIAL-001-GCC",
     "title": "Girijana Commercial complex",

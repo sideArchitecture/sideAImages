@@ -1,0 +1,23 @@
+{
+  "id": "COMMERCIAL-003-STORES APTRANSCO",
+  "slug": "COMMERCIAL-003-STORES APTRANSCO",
+  "imageUrl": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/cover.png",
+  "imageUrls": [
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/image1.png",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/image2.png",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/image3.png",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/image4.png",
+    "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/image5.png"
+  ],
+  "title": "APTRANSCO Stores",
+  "description": "APTRANSCO Stores Vijayawada — a contemporary commercial and infrastructure campus designed to redefine utility architecture through modern expression, operational efficiency, and institutional identity.",
+  "category": [
+    "Commercial"
+  ],
+  "notes": "The AP TRANSCO Stores Facility at Vijayawada transforms a conventional warehouse typology into a modern infrastructure destination through clean geometries, expansive glazed office blocks, and large-span industrial structures. Inspired by the precision and strength of power infrastructure, the campus integrates organized circulation, landscaped avenues, open storage platforms, and contemporary material palettes to create a balanced industrial environment. Blending functionality with architectural clarity, the project stands as a symbolic operational hub that reflects reliability, movement, and the evolving identity of infrastructure architecture in Andhra Pradesh.",
+  "year": "2026",
+  "client": "AP TRANSCO",
+  "designStyle": "Modern Industrial",
+  "builtStatus": "Ongoing",
+  "location": "Vijayawada"
+}
