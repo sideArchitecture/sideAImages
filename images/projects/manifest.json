@@ -4,6 +4,7 @@
     "slug": "HOSPITALITY-001-ADALI-RESORT",
     "title": "Adali Cultural Center",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/HOSPITALITY-001-ADALI-RESORT/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "featured",
@@ -21,6 +22,7 @@
     "slug": "RESIDENCE-002-DATTA-ARCADE",
     "title": "Datta arcade",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-002-DATTA-ARCADE/cover.jpg",
+    "brochureLink": "",
     "imageCount": 3,
     "category": [
       "Residential"
@@ -37,6 +39,7 @@
     "slug": "RESIDENCE-001-DATTA-GRANDEUR",
     "title": "Datta Grandeur",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-001-DATTA-GRANDEUR/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "featured",
@@ -54,6 +57,7 @@
     "slug": "RESIDENCE-004-DATTA-SUNRISE",
     "title": "Datta Skyrise",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-004-DATTA-SUNRISE/cover.jpg",
+    "brochureLink": "",
     "imageCount": 3,
     "category": [
       "Residential"
@@ -70,6 +74,7 @@
     "slug": "RESIDENCE-003-SUNRISE-VISTARA",
     "title": "Sunrise Vistara",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-003-SUNRISE-VISTARA/cover.jpg",
+    "brochureLink": "",
     "imageCount": 5,
     "category": [
       "Residential"
@@ -86,6 +91,7 @@
     "slug": "OFFICE-004-APEITA",
     "title": "APEITA Office Building",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-004-APEITA/cover.jpg",
+    "brochureLink": "",
     "imageCount": 6,
     "category": [
       "office"
@@ -102,6 +108,7 @@
     "slug": "OFFICE-003-COMMAND-CONTROL-CENTER",
     "title": "Command control center",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-003-COMMAND-CONTROL-CENTER/cover.jpg",
+    "brochureLink": "",
     "imageCount": 8,
     "category": [
       "Interiors"
@@ -118,6 +125,7 @@
     "slug": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "title": "Ingegrated government complex",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY/cover.jpg",
+    "brochureLink": "",
     "imageCount": 3,
     "category": [
       "featured",
@@ -135,6 +143,7 @@
     "slug": "OFFICE-002-TUDA-CONFERENCE",
     "title": "Tuda Conference",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "Interiors"
@@ -151,6 +160,7 @@
     "slug": "INSTITUTIONAL-003-DISTRICT-COURT",
     "title": "District Court Rennovation",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-003-DISTRICT-COURT/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "institutional"
@@ -167,6 +177,7 @@
     "slug": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "title": "Municipal  Model High School",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA/cover.jpg",
+    "brochureLink": "",
     "imageCount": 5,
     "category": [
       "featured",
@@ -184,6 +195,7 @@
     "slug": "INSTITUTIONAL-002-PANTHAM-SCHOOL",
     "title": "Sri Pantham Satyanarayana Prirmary school",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-002-PANTHAM-SCHOOL/cover.jpg",
+    "brochureLink": "",
     "imageCount": 5,
     "category": [
       "institutional"
@@ -200,6 +212,7 @@
     "slug": "HOSPITALITY-002-GANDIKOTA DTMC",
     "title": "Gandikota DTMC",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/06-hospitality/HOSPITALITY-002-GANDIKOTA DTMC/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "Hospitality"
@@ -216,6 +229,7 @@
     "slug": "COMMERCIAL-003-STORES APTRANSCO",
     "title": "APTRANSCO Stores",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/cover.png",
+    "brochureLink": "",
     "imageCount": 5,
     "category": [
       "commercial"
@@ -232,6 +246,7 @@
     "slug": "COMMERCIAL-001-GCC",
     "title": "Girijana Commercial complex",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/cover.jpg",
+    "brochureLink": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/brochure.pdf",
     "imageCount": 5,
     "category": [
       "featured",
@@ -249,6 +264,7 @@
     "slug": "COMMERCIAL-002-SURUCHI",
     "title": "Suruchi",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-002-SURUCHI/cover.jpg",
+    "brochureLink": "",
     "imageCount": 6,
     "category": [
       "commercial"
@@ -265,6 +281,7 @@
     "slug": "MORE-001-MEMORIAL-DESIGN",
     "title": "Memorial Ghat",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/cover.jpg",
+    "brochureLink": "",
     "imageCount": 4,
     "category": [
       "featured",

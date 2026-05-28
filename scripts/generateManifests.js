@@ -114,6 +114,7 @@ function generateAllManifests() {
         slug: p.slug,
         title: p.title,
         coverImage: p.coverImage,
+        brochureLink: p.brochureLink,
         imageCount: p.imageCount,
         category: p.category,
         projectPath: p.projectPath,
