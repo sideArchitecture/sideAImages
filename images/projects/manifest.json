@@ -2,6 +2,7 @@
   {
     "id": "HOSPITALITY-001-ADALI-RESORT",
     "slug": "HOSPITALITY-001-ADALI-RESORT",
+    "slugHex": "SE9TUElUQUxJVFktMDAxLUFEQUxJLVJFU09SVA",
     "title": "Adali Cultural Center",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/01-featured/HOSPITALITY-001-ADALI-RESORT/cover.jpg",
     "brochureLink": "",
@@ -20,6 +21,7 @@
   {
     "id": "RESIDENCE-002-DATTA-ARCADE",
     "slug": "RESIDENCE-002-DATTA-ARCADE",
+    "slugHex": "UkVTSURFTkNFLTAwMi1EQVRUQS1BUkNBREU",
     "title": "Datta arcade",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-002-DATTA-ARCADE/cover.jpg",
     "brochureLink": "",
@@ -37,6 +39,7 @@
   {
     "id": "RESIDENCE-001-DATTA-GRANDEUR",
     "slug": "RESIDENCE-001-DATTA-GRANDEUR",
+    "slugHex": "UkVTSURFTkNFLTAwMS1EQVRUQS1HUkFOREVVUg",
     "title": "Datta Grandeur",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-001-DATTA-GRANDEUR/cover.jpg",
     "brochureLink": "",
@@ -55,6 +58,7 @@
   {
     "id": "RESIDENCE-004-DATTA-SUNRISE",
     "slug": "RESIDENCE-004-DATTA-SUNRISE",
+    "slugHex": "UkVTSURFTkNFLTAwNC1EQVRUQS1TVU5SSVNF",
     "title": "Datta Skyrise",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-004-DATTA-SUNRISE/cover.jpg",
     "brochureLink": "",
@@ -72,6 +76,7 @@
   {
     "id": "RESIDENCE-003-SUNRISE-VISTARA",
     "slug": "RESIDENCE-003-SUNRISE-VISTARA",
+    "slugHex": "UkVTSURFTkNFLTAwMy1TVU5SSVNFLVZJU1RBUkE",
     "title": "Sunrise Vistara",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/02-residential/RESIDENCE-003-SUNRISE-VISTARA/cover.jpg",
     "brochureLink": "",
@@ -89,6 +94,7 @@
   {
     "id": "OFFICE-004-APEITA",
     "slug": "OFFICE-004-APEITA",
+    "slugHex": "T0ZGSUNFLTAwNC1BUEVJVEE",
     "title": "APEITA Office Building",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-004-APEITA/cover.jpg",
     "brochureLink": "",
@@ -106,6 +112,7 @@
   {
     "id": "OFFICE-003-COMMAND-CONTROL-CENTER",
     "slug": "OFFICE-003-COMMAND-CONTROL-CENTER",
+    "slugHex": "T0ZGSUNFLTAwMy1DT01NQU5ELUNPTlRST0wtQ0VOVEVS",
     "title": "Command control center",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-003-COMMAND-CONTROL-CENTER/cover.jpg",
     "brochureLink": "",
@@ -123,6 +130,7 @@
   {
     "id": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
     "slug": "OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY",
+    "slugHex": "T0ZGSUNFLTAwMS1JTlRFR1JBVEVELUdPVlQtT0ZGSUNFLVJBSkhNVU5EUlk",
     "title": "Ingegrated government complex",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-001-INTEGRATED-GOVT-OFFICE-RAJHMUNDRY/cover.jpg",
     "brochureLink": "",
@@ -141,6 +149,7 @@
   {
     "id": "OFFICE-002-TUDA-CONFERENCE",
     "slug": "OFFICE-002-TUDA-CONFERENCE",
+    "slugHex": "T0ZGSUNFLTAwMi1UVURBLUNPTkZFUkVOQ0U",
     "title": "Tuda Conference",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/03-office/OFFICE-002-TUDA-CONFERENCE/cover.jpg",
     "brochureLink": "",
@@ -158,6 +167,7 @@
   {
     "id": "INSTITUTIONAL-003-DISTRICT-COURT",
     "slug": "INSTITUTIONAL-003-DISTRICT-COURT",
+    "slugHex": "SU5TVElUVVRJT05BTC0wMDMtRElTVFJJQ1QtQ09VUlQ",
     "title": "District Court Rennovation",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-003-DISTRICT-COURT/cover.jpg",
     "brochureLink": "",
@@ -175,6 +185,7 @@
   {
     "id": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
     "slug": "INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA",
+    "slugHex": "SU5TVElUVVRJT05BTC0wMDEtTVVOQ0lQQUwtTU9ERUwtU0NIT09MLVZJSkFZQVdBREE",
     "title": "Municipal  Model High School",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-001-MUNCIPAL-MODEL-SCHOOL-VIJAYAWADA/cover.jpg",
     "brochureLink": "",
@@ -193,6 +204,7 @@
   {
     "id": "INSTITUTIONAL-002-PANTHAM-SCHOOL",
     "slug": "INSTITUTIONAL-002-PANTHAM-SCHOOL",
+    "slugHex": "SU5TVElUVVRJT05BTC0wMDItUEFOVEhBTS1TQ0hPT0w",
     "title": "Sri Pantham Satyanarayana Prirmary school",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/04-institutional/INSTITUTIONAL-002-PANTHAM-SCHOOL/cover.jpg",
     "brochureLink": "",
@@ -210,6 +222,7 @@
   {
     "id": "HOSPITALITY-002-GANDIKOTA DTMC",
     "slug": "HOSPITALITY-002-GANDIKOTA DTMC",
+    "slugHex": "SE9TUElUQUxJVFktMDAyLUdBTkRJS09UQSBEVE1D",
     "title": "Gandikota DTMC",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/06-hospitality/HOSPITALITY-002-GANDIKOTA DTMC/cover.jpg",
     "brochureLink": "",
@@ -227,6 +240,7 @@
   {
     "id": "COMMERCIAL-003-STORES APTRANSCO",
     "slug": "COMMERCIAL-003-STORES APTRANSCO",
+    "slugHex": "Q09NTUVSQ0lBTC0wMDMtU1RPUkVTIEFQVFJBTlNDTw",
     "title": "APTRANSCO Stores",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-003-STORES APTRANSCO/cover.png",
     "brochureLink": "",
@@ -244,6 +258,7 @@
   {
     "id": "COMMERCIAL-001-GCC",
     "slug": "COMMERCIAL-001-GCC",
+    "slugHex": "Q09NTUVSQ0lBTC0wMDEtR0ND",
     "title": "Girijana Commercial complex",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-001-GCC/cover.jpg",
     "brochureLink": "",
@@ -262,6 +277,7 @@
   {
     "id": "COMMERCIAL-002-SURUCHI",
     "slug": "COMMERCIAL-002-SURUCHI",
+    "slugHex": "Q09NTUVSQ0lBTC0wMDItU1VSVUNISQ",
     "title": "Suruchi",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/09-commercial/COMMERCIAL-002-SURUCHI/cover.jpg",
     "brochureLink": "",
@@ -279,6 +295,7 @@
   {
     "id": "MORE-001-MEMORIAL-DESIGN",
     "slug": "MORE-001-MEMORIAL-DESIGN",
+    "slugHex": "TU9SRS0wMDEtTUVNT1JJQUwtREVTSUdO",
     "title": "Memorial Ghat",
     "coverImage": "https://sidearchitecture.github.io/sideAImages/images/projects/10-more/MORE-001-MEMORIAL-DESIGN/cover.jpg",
     "brochureLink": "",

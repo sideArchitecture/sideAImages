@@ -5,6 +5,16 @@ const ROOT_DIR = path.join(__dirname, '../images/projects');
 const OUTPUT_MANIFEST = path.join(ROOT_DIR, 'manifest.json');
 const BASE_URL = 'https://sidearchitecture.github.io/sideAImages/images/projects';
 
+function toHex1(str) {
+    return Buffer.from(str).toString('base64url');
+}
+
+function toHex(str) {
+    return Buffer.from(str, 'utf8')
+        .toString('base64url');
+}
+
+
 function extractSortAndSlug(folderName) {
     const match = folderName.match(/^(\d+)-(.+)$/);
     return match
@@ -52,6 +62,7 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
     const manifest = {
         id: slug,
         slug,
+        slugHex: toHex(slug),
         imageUrl: `${baseUrl}/${coverImageFile}`,
 
         imageUrls: imageUrls.map(
@@ -68,6 +79,7 @@ function generateProjectManifest(categoryFolder, categorySortIndex, projectFolde
     return {
         id: slug,
         slug,
+        slugHex: toHex(slug),
         title: manualData.title || slug,
         coverImage: `${baseUrl}/${coverImageFile}`,
 
@@ -112,6 +124,7 @@ function generateAllManifests() {
     const output = allProjects.map(p => ({
         id: p.id,
         slug: p.slug,
+        slugHex: p.slugHex,
         title: p.title,
         coverImage: p.coverImage,
         brochureLink: p.brochureLink,
